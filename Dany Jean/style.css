@@ -1,0 +1,1098 @@
+/* lien Police d'écriture pour les titres*/
+@import url('https://fonts.googleapis.com/css2? family= Caveat:wght@500 & family= Comme:wght@500 & family= Cormorant+Garamond:ital,wght@0,400;1,600 & family= Homard & family= Noto+Sans & family= Noto+Sans+Display:wght@900 & family= Oswald:wght@300 & family= Roboto:ital,wght@0,300;1,300;1,400 & family= Young+Serif & display=échange');
+
+/* lien police d'écriture pour les paragraphes*/
+@import url('https://fonts.googleapis.com/css2? family= Caveat:wght@500 & family= Comme:wght@500 & family= Cormorant+Garamond:ital,wght@0,400;1,600 & family= Homard & family= Noto+Sans & family= Noto+Sans+Display:wght@900 & family= Oswald:wght@300 & family= Roboto:ital,wght@0,300;1,300;1,400 & family= Young+Serif & display=échange');
+
+/* lien police d'écriture pour les balises a */
+@import url('https://fonts.googleapis.com/css2? family= Caveat:wght@500 & family= Comme:wght@500 & family= Cormorant+Garamond:ital,wght@0,400;1,600 & family= Homard & family= Noto+Sans & family= Noto+Sans+Display:wght@900 & family= Oswald:wght@300 & family= Roboto:ital,wght@0,300;1,300;1,400 & family= Young+Serif & display=échange');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Caveat', cursive;
+font-family: 'Comme', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+}
+a{
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+font-family: 'Comme', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+}
+p{
+  line-height: 1.2;
+  font-family: 'Caveat', cursive;
+font-family: 'Comme', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+}
+body{
+  background-color: #f2f2f2;
+}
+/* kòd menu nav #1 */
+.menu-nav-1{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+ left: -250px;
+  background-color: #3664f4;
+  padding-top: 60px;
+  transition: left 0.5s ease;
+}
+.menu-nav-1 ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.menu-nav-1 a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.menu-nav-1 a:hover{
+  color: white;
+  border: 2px solid white;
+  margin: 5px;
+  padding: 5px;
+}
+.menu-nav-1.active{
+  left: 0;
+}
+
+/* femen bouton */
+.menu-nav-1 .femen{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 25px;
+}
+/* femen bouton */
+
+.iconBurger span{
+  display: block;
+  width: 35px;
+  height: 5px;
+  background-color: #3664f4;
+  margin: 6px 0;
+}
+.iconeBurger, #mini-menu{
+  display: none;
+}
+/* fen menu nav #1 */
+
+
+/* kòd menu nav #2 */
+.menu-nav-2{
+  width: 100%;
+  height: 90px;
+  background-color: #3664f4;
+  padding: 8px 8px 8px 32px;
+  color: white;
+  display: flex;
+  border-bottom: 2px solid white;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+}
+.menu-nav-2 h1{
+  margin-top: 15px;
+}
+.menu-nav-2 li{
+  display: inline-block;
+  margin: 15px 0px;
+  list-style-type: none;
+  border-bottom: 2px solid white;
+  margin: 15px;
+}
+.menu-nav-2 li:hover{
+  border-bottom: none;
+}
+.menu-nav-2 a{
+  text-decoration: none;
+  color: white;
+}
+.menu-nav-2 a:hover{
+  border: 2px solid white;
+  padding: 5px;
+  margin: 5px;
+  transition: 0.4s;
+}
+/* fen kòd menu nav #2
+
+/* kòd header index */
+header{
+  background-image: url(images/cover.jpg);
+  width: 100%;
+  padding: 70px 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*height: 30vh;*/
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1{
+  font-weight: bold;
+}
+/* fen header index */
+
+/* kòd description #1 */
+#description1{
+  width: 900px;
+  display: flex;
+  margin: 0px 40px;
+  margin-bottom: 30px;
+}
+#description1 img{
+  width: 400px;
+  border-radius: 20px;
+}
+#description1 p{
+  margin-left: 30px;
+  margin-top: 60px; 
+}
+#description1 span{
+  color: #3664f4;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+.lyen-index{
+  margin-left: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.4s;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+.lyen-index:hover{
+  background-color: #3664f4;
+  color: white;
+}
+#description1-1{
+  height: 275px;
+  background-color: #3664f4;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  padding: 45px 40px;
+  border-radius: 10px;
+}
+#description1-1 h3{
+  color: #00FC09;
+}
+#description1-1 p{
+  color: white;
+}
+#description1-1 a{
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  background-color: red;
+  padding: 5px 10px;
+  margin-right: 25px;
+  transition: 0.4s;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+#description1-1 a:hover{
+  background-color: white;
+  color: red;
+}
+/* fen kòd description #1 */
+
+/* kòd pye paj */
+footer{
+  background-color: #3664f4;
+  height: 290px;
+  margin-top: 30px;
+  display: flex;
+  padding: 20px 10%;
+  color: white;
+}
+footer h4{
+  color: #00FC09;
+}
+footer li{
+  list-style-type: none;
+  margin: 15px 0px;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+footer a:hover{
+  padding: 5px;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+footer p{
+  margin: 15px 0px;
+}
+footer div{
+  margin: 0px 30px;
+}
+footer img{
+  width: 250px;
+  border-radius: 5px;
+}
+/* bas pye paj */
+#bas-pied{
+  text-align: center;
+  background-color: #3664f4;
+  color: white;
+  border-top: 2px solid white;
+  margin: 0px;
+  padding: 15px 0px;
+}
+/* fen kòd pye paj */
+
+
+/* kòd paj à propos */
+#titre-apropos{
+  text-align: center;
+  color: #3664f4;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+/* kòd description #2 */
+#description2{
+  height: auto;
+  width: auto;
+  background-color: white;
+  margin-left: 0px;
+  margin-bottom: 70px;
+  padding-bottom: 20px;
+}
+#description2-1{
+  height: 200px;
+  width: auto;
+  background-color: #3664f4;
+}
+#description2-2{
+  margin-top: 30px;
+}
+#description2-2 h2{
+  text-align: center;
+  color: #3664f4;
+  font-weight: bold;
+}
+#description2-2 p{
+  padding: 0px 20px;
+  color: #1e2029;
+}
+#dany-style{
+  width: 35%;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-top: -125px;
+  border: 2px solid white;
+}
+/* fen kòd description #2 */
+
+/* kòd description #3 */
+#description3{
+  background-color: #3664f4;
+  height: 280px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-bottom: 30px;
+  border-radius: 0px 45px 0px 45px;
+}
+#description3 div{
+  display: flex;
+  margin: 0px 0px;
+  padding: 15px 20px;
+}
+#description3 div p{
+  margin-top: 35px;
+  color: white;
+  border-radius: 35px 0px 35px 0px;
+}
+#cover-style{
+  width: 25%;
+  margin-right: 25px;
+}
+/* fen kòd description #3 */
+
+/* kòd description #4 */
+#description4{
+  width:  auto;
+  margin-left: 0px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+#description4 h2{
+  text-align: center;
+  color: #3664f4;
+  margin-bottom: 20px;
+  font-weight: bold;
+  
+}
+#description4 div{
+  width: auto;
+  margin-left: 5%;
+}
+.description4-1{
+  height: 280px;
+  width: 30%;
+  margin: 5px 0px;
+  padding: 0px 5px;
+}
+/* fen kòd description #4 */
+
+/* kòd description #5 */
+#description5{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#description5 a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: 0.4s;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+#description5 a:hover{
+  color: white;
+  background-color: #3664f4;
+}
+/* fen kòd description #5 */
+/* fen kòd paj à propos */
+
+
+/* kòd paj blog */
+/* kòd section #1 */
+#section1{
+  background-color: #fff4d5;
+  height: 150px;
+  width: auto;
+  margin-top: 30px;
+}
+#section1 div{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+}
+#section1 div h1{
+  color: #3664f4;
+}
+#section1 div a{
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+#section1 div a:hover{
+  background-color: #3664f4;
+}
+#section1 p{
+  text-align: center;
+}
+/* fen kòd section #1 */
+
+/*  kòd section #1-1 */
+#section1-1{
+  margin: 30px 20px;
+}
+.articles{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.left img{
+  width: 400px;
+  height: 300px;
+}
+.right{
+  max-width: 50%;
+  margin-left: 40px;
+  margin-top: 70px;
+  color: #1e2029;
+}
+h3{
+  color: #3664f4;
+  font-size: 25px;
+}
+.right h3{
+  padding-bottom: 15px;
+}
+.date, .description{
+  margin-bottom: 20px;
+}
+.lyen-blog{
+  border-bottom: 2px solid #3664f4;
+  padding-bottom: 5px;
+}
+.lyen-blog a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3664f4;
+}
+/* fen kòd section #1-1 */
+/* fen kòd paj blog */
+
+/* kòd paj lyen-blog1 */
+#section3{
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 25px 20px;
+}
+#section3 h1{
+  text-align: center;
+  color: #3664f4;
+  padding: 20px 0px;
+  text-shadow: 5px 5px 2px rgba(0,0,0,0.3);
+}
+.pik-blog{
+  width: 50%;
+  margin-left: 25%;
+  height: auto;
+}
+#section3 p{
+  text-align: center;
+  padding-top: 20px;
+  line-height: 1.9;
+}
+/* fen kòd lyen-blog1 */
+
+/* kòd paj archives */
+.boite{
+  margin-top: -15px;
+  margin-bottom: 30px;
+}
+.boite-blog{
+  width: 80%;
+  height: 1px;
+  margin-left: 10%;
+  margin-bottom: 15px;
+  background-color: red;
+}
+/* fen kòd paj archives */
+
+
+/* kòd paj nos services */
+/* kòd en-tête services */
+#entet-service{
+  background-color: yellow;
+  margin: 30px 0px;
+  padding: 15px 25px;
+}
+/* fen kòd entête service */
+
+#section2{
+  margin-top: 30px;
+}
+#section2 h1{
+  text-align: center;
+  color: #3664f4;
+}
+#section2 .boxes{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: yellow;
+}
+.boxes .box{
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  width: 300px;
+  height: 150px;
+  margin: 25px 10px;
+  background-image: url(images/logo6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box3{
+  margin-top: 30px;
+  text-align: center;
+}
+.box3 h2{
+  color: #3664f4;
+  padding-bottom: 25px;
+}
+.box3 a{
+  text-decoration: none;
+  background-color: #3664f4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 20px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+.box3 a:hover{
+  background-color: red;
+}
+/* fen kòd paj nos services */
+
+
+/* kòd paj contact */ 
+/* kòd description #6 */
+#description6{
+  width: 50%;
+  height: 170px;
+  padding: 15px 10px;
+  margin-left: 27%;
+  margin-top: 85px;
+  background-color: #3664f4;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+#description6 h4{
+  font-weight: bold;
+  color: #00FC09;
+}
+/* fen kòd description #6 */
+
+/* kòd description #7 */
+#description7{
+  background-color: #3664f4;
+  color: white;
+  margin-top: 30px;
+  padding: 30px 10%;
+}
+#description7 h2{
+  color: #00FC09;
+}
+#description7-1{
+  background-color: #3664f4;
+  color: white;
+  width: 60%;
+  height: 150px;
+  text-align: center;
+  padding: 3%;
+  margin-left: 210px;
+  margin-top: -20px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom-left-radius: 35px;
+}
+#description7-1 p{
+  margin-bottom: 20px;
+}
+#description7-1 a{
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px ;
+  border-radius: 10px;
+  background-color: white;
+  color: #3664f4;
+  transition: 0.4s;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.6);
+}
+#description7-1 a:hover{
+  background-color: red;
+  color: white;
+}
+/* fen kòd description #7 */
+/* fen kòd paj contact */
+
+
+/* kòd médias curry*/
+@media screen and (max-width: 768px){
+  #mini-menu{
+    display: flex;
+    justify-content: space-around;
+    color: #3664f4;
+    margin: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 15px 30px;
+  }
+  #mini-menu h1{
+    margin-top: 7px;
+  }
+    .iconeBurger{
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-nav-2{
+    display: none;
+  }
+  /* footer */
+  footer{
+  background-color: #3664f4;
+  width: auto;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px 15px;
+  color: white;
+}
+footer h4{
+  color: #00FC09;
+}
+footer li{
+  list-style-type: none;
+  margin: 15px 0px;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+footer a:hover{
+  padding: 5px;
+  transition: 0.4s;
+  border: 2px solid white;
+}
+footer p{
+  margin: 15px 0px;
+}
+footer div{
+  display: inline-block;
+  margin: 15px 30px;
+}
+footer img{
+  width: 80%;
+  border-radius: 5px;
+}
+  /* footer */
+  
+  /* index */
+  header{
+    margin: auto;
+    text-align: center;
+  }
+  header h1{
+    padding-bottom: 25px;
+  }
+  *{
+    font-size: 17px;
+  }
+  #description1{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 7px;
+}
+#description1 img{
+  width: 300px;
+  border-radius: 20px;
+  margin: 0px 23px;
+}
+#description1 p{
+  margin-left: 0px;
+  margin-top: 30px; 
+  width: 350px;
+}
+#description1 span{
+  color: #3664f4;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+.lyen-index{
+  margin-left: 70px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+.lyen-index:hover{
+  background-color: #3664f4;
+  color: white;
+}
+#description1-1{
+  height: 395px;
+  background-color: #3664f4;
+  width: 100%;
+  margin-left: 0px;
+  text-align: center;
+  padding: 45px 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+#description1-1 h3{
+  color: #00FC09;
+  margin: 13px 0px;
+}
+#description1-1 p{
+  color: white;
+}
+#description1-1 a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  border-radius: 10px;
+  background-color: red;
+  margin: 15px 0px;
+  transition: 0.4s;
+}
+#description1-1 a:hover{
+  background-color: white;
+  color: red;
+}
+  /* index */
+  
+   /* à propos */
+   #titre-apropos{
+  text-align: center;
+  color: #3664f4;
+  margin: 15px 0px;
+  font-weight: bold;
+}
+/* kòd description #2 */
+#description2{
+  height: auto;
+  width: auto;
+  background-color: white;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+#description2-1{
+  height: 150px;
+  width: auto;
+  background-color: #3664f4;
+}
+#description2-2{
+  margin-top: 15px;
+}
+#description2-2 h2{
+  text-align: center;
+  color: #3664f4;
+  font-weight: bold;
+}
+#description2-2 p{
+  padding: 15px 20px;
+  color: #1e2029;
+}
+#dany-style{
+  width: 40%;
+  border-radius: 50%;
+  margin-top: -125px;
+  border: 2px solid white;
+}
+/* fen kòd description #2 */
+
+/* kòd description #3 */
+#description3{
+  background-color: #3664f4;
+  height: auto;
+  width: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border-radius: 0px 30px 0px 30px;
+}
+#description3 div{
+  display: block;
+  margin: 0px 0px;
+  text-align: center;
+}
+#description3 div p{
+  margin-top: 35px;
+  color: white;
+  border-radius: 35px 0px 35px 0px;
+}
+#cover-style{
+  width: 75%;
+}
+/* fen kòd description #3 */
+
+/* kòd description #4 */
+#description4{
+  width: auto;
+  margin-left: 0px;
+  margin-bottom: 30px;
+}
+#description4 h2{
+  text-align: center;
+  color: #3664f4;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#description4 div{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.description4-1{
+  height: 280px;
+  width: 280px;
+  margin-bottom: 15px;
+}
+/* fen kòd description #4 */
+
+/* kòd description #5 */
+#description5{
+  text-align: center;
+  margin-bottom: 30px;
+}
+#description5 a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: red;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#description5 a:hover{
+  color: white;
+  background-color: #3664f4;
+}
+/* fen kòd description #5 */
+  /* à propos */
+  
+  
+    /* blog */
+    /* kòd section #1 */
+#section1{
+  background-color: #fff4d5;
+  height: auto;
+  width: auto;
+  margin-top: 30px;
+  padding: 20px 10px;
+}
+#section1 div{
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-around;
+  padding: 20px;
+}
+#section1 div h1{
+  color: #3664f4;
+}
+#section1 div a{
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+#section1 div a:hover{
+  background-color: #3664f4;
+}
+#section1 p{
+  text-align: center;
+}
+/* fen kòd section #1 */
+
+/*  kòd section #1-1 */
+#section1-1{
+ 
+}
+.articles{
+  margin-bottom: 30px;
+}
+.left{
+  width: 100%;
+}
+.left img{
+  width: 100%;
+}
+.right{
+  max-width: 100%;;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 45px;
+  color: #1e2029;
+}
+h3{
+  color: #3664f4;
+  font-size: 25px;
+}
+.right h3{
+  padding-bottom: 15px;
+}
+.description{
+  width: 100%;
+}
+.right .date, .description{
+  margin-bottom: 10px;
+}
+.lyen-blog{
+  border-bottom: 2px solid #3664f4;
+  padding-bottom: 5px;
+}
+.lyen-blog a{
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #3664f4;
+}
+/* fen kòd section #1-1 */
+  /* blog */
+  
+  
+  /* service */
+  #section2{
+  margin-top: 30px;
+}
+#section2 h1{
+  text-align: center;
+  color: #3664f4;
+}
+#section2 .boxes{
+  display: block;
+  text-align: center;
+  color: yellow;
+}
+.boxes .box{
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: multiply;
+  width: auto;
+  height: 150px;
+  margin: 30px 10px;
+  padding: 20px;
+  background-image: url(images/logo6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.box3{
+  margin-top: 30px;
+  text-align: center;
+}
+.box3 h2{
+  color: #3664f4;
+  padding-bottom: 25px;
+}
+.box3 a{
+  text-decoration: none;
+  background-color: #3664f4;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.box3 a:hover{
+  background-color: red;
+}
+  /* service */
+  
+    /* contact */
+  /* kòd description #6 */
+#description6{
+  width: 80%;
+  height: 170px;
+  padding: 15px 10px;
+  margin-left: 10%;
+  margin-top: 30px;
+  background-color: #3664f4;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+#description6 h4{
+  font-weight: bold;
+  color: #00FC09;
+}
+/* fen kòd description #6 */
+
+/* kòd description #7 */
+#description7{
+  background-color: #3664f4;
+  color: white;
+  width: auto;
+  margin-top: 30px;
+  padding: 30px 10%;
+}
+#description7 h2{
+  color: #00FC09;
+}
+#description7-1{
+  background-color: #3664f4;
+  color: white;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: -20px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom-left-radius: 35px;
+}
+#description7-1 p{
+  margin-bottom: 20px;
+}
+#description7-1 a{
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 25px 10px;
+  border-radius: 7px;
+  background-color: white;
+  color: #3664f4;
+  transition: 0.4s;
+}
+#description7-1 a:hover{
+  background-color: red;
+  color: white;
+}
+/* fen kòd description #7 */
+  /* contact */
+  
+  
+  /* kòd paj lyen-blog1 */
+  #section3{
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 25px 10px;
+}
+.pik-blog{
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+}
+#section3 p{
+  text-align: justify;
+  padding-top: 20px;
+  margin: 0px 10px;
+}
+  /* fen kòd lyen-blog1 */
+/* fen kòd médias curry */
+}
